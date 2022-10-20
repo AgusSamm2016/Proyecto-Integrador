@@ -1,0 +1,140 @@
+/* HEADERS */
+.form-control-dark {
+    border-color: var(--bs-gray);
+  }
+  .form-control-dark:focus {
+    border-color: #fff;
+    box-shadow: 0 0 0 .25rem rgba(255, 255, 255, .25);
+  }
+  
+  .text-small {
+    font-size: 85%;
+  }
+  
+  .dropdown-toggle {
+    outline: 0;
+  }
+
+  .lead {
+    text-align: justify;
+  }
+  
+  .hero {
+    text-align: center;
+    
+  }
+
+  .accordion {
+    width: 50vw;
+    align-items: center;
+    margin: auto;
+    padding: auto;
+  }
+  
+  /* Heroes: */
+  @media (min-width: 992px) {
+    .rounded-lg-3 { border-radius: .3rem; }
+  }
+  
+  /* Pricing */
+  .pricing {
+    width: 75vw;
+    margin: auto;
+    padding: auto;
+  }
+  .pricing-header {
+    width: 60vw;
+  }
+  /* Section-description*/
+.top-container {
+  display: flex;
+  width: 85%;
+  margin: 0 auto;
+  padding: 0.5rem;
+  gap: 1em;
+}
+
+.bottom-container {
+  display: flex;
+  width: 85%;
+  margin: 0 auto;
+  padding: 0.5rem;
+}
+.top-container .right-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.top-container .right-container p {
+  text-align: justify;
+  font-size: large;
+}
+.top-container .right-container h2 {
+  justify-content: center;
+  align-self: center;
+  color: mediumslateblue;
+}
+.bottom-container .right-container2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: flex-start;
+  text-align: justify;
+}
+.bottom-container .right-container2 p {
+  text-align: justify;
+  font-size: large;
+}
+.bottom-container .right-container2 h2 {
+  justify-content: flex-start;
+  align-self: center;
+  color: mediumslateblue;  
+}
+
+/* Templates */
+
+.card :hover{
+ transform: scale3d(2.00);
+}
+
+
+
+/* Cards */
+
+.img-gallery {
+  max-width: 100%;
+  gap: 1cm;
+}
+
+.img-gallery:hover {
+  transform: scale(1.05);
+}
+
+.gallery {
+width: 89.5vw;
+gap: 2cm;
+border: 1px solid;
+border-color: grey;
+margin: 2em 3em 3em 3em;
+padding: 3px
+}
+
+
+/* Modals */
+.modal-sheet .modal-dialog {
+  width: 380px;
+  transition: bottom .75s ease-in-out;
+}
+.modal-sheet .modal-footer {
+  padding-bottom: 2rem;
+}
+
+.modal-alert .modal-dialog {
+  width: 380px;
+}
+
+.modal-tour .modal-dialog {
+  width: 380px;
+}
+
